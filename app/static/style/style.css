@@ -1,0 +1,219 @@
+body
+{
+    border-top: 5px solid #333;
+    margin:0;
+    padding:0;
+
+    color: #333;
+    line-height: 1.7;
+
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+    color: #000;
+    font-weight: bold;
+    text-rendering: optimizelegibility;
+}
+
+h1.title {font-size: 28px;}
+h1 {font-size: 25px;}
+
+pre {
+    background: #f4f4f4;
+    font-family: Bitstream Vera Sans Mono,monospace;
+    line-height: 1.7;
+    margin-bottom: 1.7em;
+    padding: 0.85em 1.7em;
+    border: 1px solid #ddd;
+}                                                                                                                
+
+
+pre
+{
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-background-origin: padding;
+    -moz-border-radius-bottomleft: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    background: #222 none repeat scroll 0 0;
+    color: white;
+}
+
+
+
+pre{
+    overflow-x: auto;
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    /* width: 99%; */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+
+code {
+    font: 12px Monaco,Consolas,"Andale Mono","DejaVu Sans Mono",monospace;
+}
+
+
+#container
+{
+    clear: both;
+    margin: auto;
+    width: 800px;
+    border: 2px solid red;
+}
+
+
+#container #titulo h1 a {
+    font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    color:#E87830;
+    font-size: 36px;
+    letter-spacing: -0.03em;
+    line-height: 42px;
+}
+
+        #container #header
+        {
+        }
+
+    #container #sidebar
+    {
+        clear: both;
+        float: right;
+        width: 200px;
+        display: none;
+    }
+
+    #container #sidebar h1
+    {
+	font-size: 16px;
+    }
+
+    #container #sidebar ul
+    {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+    }
+
+    #container #sidebar form
+    {
+    }
+
+    #container #sidebar ul li
+    {
+	border-bottom:1px dotted #ddd;
+	margin-bottom:0.3em;
+	padding:0.3em;
+    }
+
+    #container #navbar
+    {
+    }
+
+
+    #container #content
+    {
+        width: 64.99%;
+    }
+
+    #container #footer
+    {
+        padding: 0 0 3.7em;
+    }
+
+        #container #footer .footer2
+        {
+            color: gray;
+            margin-top: 4em;
+            text-align: center;
+        }
+
+
+
+
+/* Links */
+a {
+    color: #0060ff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0000df;
+}
+
+a:active,
+a:hover 
+{
+    color: #0000ff;
+    text-decoration: underline;
+    
+}
+
+img
+{
+    border: 0;
+    padding: 2px;
+}
+
+img.border
+{
+    border: 2px solid gray;
+}
+
+img.right
+{
+    float: right;
+}
+
+
+dt
+{
+    font-weight: bold;
+}
+
+.note
+{
+    border-left: 5px solid #ccc;
+    padding: 1em;
+    margin-left: 3em;
+}
+
+
+.section
+{
+    margin-bottom: 3em;
+}
+
+
+@font-face {
+  font-family: 'Alike';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Alike'), local('Alike-Regular'), url('a1.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('a2.woff') format('woff');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PT Sans'), local('PTSans-Regular'), url('a3.woff') format('woff');
+}
+
+
+.gallery img
+{
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    margin: 0.5em;
+}
