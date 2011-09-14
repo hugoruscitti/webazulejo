@@ -1,6 +1,5 @@
 body
 {
-    border-top: 5px solid #333;
     margin:0;
     padding:0;
 
@@ -65,17 +64,21 @@ code {
 {
     clear: both;
     margin: auto;
-    width: 800px;
-    border: 2px solid red;
+    width: 700px;
 }
 
 
-#container #titulo h1 a {
+#container #titulo h1 {
     font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
     color:#E87830;
     font-size: 36px;
     letter-spacing: -0.03em;
     line-height: 42px;
+}
+
+#container #titulo img
+{
+    float: left;
 }
 
         #container #header
@@ -118,10 +121,6 @@ code {
     }
 
 
-    #container #content
-    {
-        width: 64.99%;
-    }
 
     #container #footer
     {
@@ -182,7 +181,6 @@ dt
 {
     border-left: 5px solid #ccc;
     padding: 1em;
-    margin-left: 3em;
 }
 
 
