@@ -1,15 +1,12 @@
 <!doctype html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="{{ url_for('.static', filename='css/style.css') }}" type="text/css" media="screen, projection">
-<title>プロジェクト</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="{{ url_for('.static', filename='css/style.css') }}" type="text/css" media="screen, projection">
+    <title>Azulejo!</title>
 </head>
+
 <body>
-<h1>List</h1>
-<ul>
-{% for entry in model.get_entries() %}
-<li class='entry'>{{ entry.name }}</li>
-{% endfor %}
-</ul>
+<h1>Azulejo</h1>
+
 </body>
 </html>
