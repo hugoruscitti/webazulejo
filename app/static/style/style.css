@@ -215,3 +215,21 @@ dt
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
     margin: 0.5em;
 }
+
+table td
+{
+    text-align: center;
+}
+
+table
+{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
+pre
+{
+    margin-left: 2em;
+    margin-right: 2em;
+}
